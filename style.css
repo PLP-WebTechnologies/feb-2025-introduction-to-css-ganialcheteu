@@ -1,0 +1,55 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(229, 148, 148);
+}
+
+h1{
+    text-align: center;
+    margin: 0.5em auto;
+    text-transform: uppercase;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+    width: 400px;
+    height:300px;
+    border:0.8px solid rgb(134, 129, 129);
+    border-radius: 8px;
+
+}
+
+.card>div:first-child{
+    border-right: 8.8px solid rgb(159, 21, 21);
+}
+
+.card>div:last-child{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.2em;
+   text-transform: uppercase;
+   text-align: center;
+   border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 185px;
+    height: 300px;
+
+}
+
+#agency_description{
+    text-align: justify;
+    color: rgb(226, 106, 106);
+    padding: 0.7em;
+}
